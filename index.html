@@ -1,173 +1,28 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
- <meta charset="UTF-8">
-<style>
-div, h1, p, a, video, h2{
-    z-index: 2;
-    position: relative;
-}
-.content {
-  position: relative;
-  top: 30%;
-  z-index: 2;
-  margin: 0 auto;
-  max-width: 720px;
-  text-align: center;
-}
+<html>
+	<head>
+		<title>Proyecto Final</title>
+		<link rel="stylesheet" href="css2.css" type="text/css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+	</head>
+	<video id="my-video" class="video" autoplay muted loop>
+		<source src="fondo.mp4" type="video/mp4">
+	 </video>
+	<body>
 
-.content__heading {
-  margin-bottom: 24px;
-  color: rgb(39,39,39);
-  font-size: 44px;
-}
-
-.content__teaser {
-  margin-bottom: 24px;
-  color: rgb(89,89,89);
-  font-size: 22px;
-}
-
-.content__cta {
-  display: inline-block;
-  margin: 0;
-  padding: 12px 48px;
-  color: rgb(255,60,100);
-  font-size: 22px;
-  text-decoration: none;
-  border: solid 4px rgb(255,60,100);
-}
-
-.video {
-  position: fixed;
-  top: 50%; left: 50%;
-  z-index: 1;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translate(-50%, -50%);
-}
-
-h1{
-font-size: 100px;
-letter-spacing: 5px;
-color: white;
-}
-h2{
-font-size: 60px;
-letter-spacing: 7px;
-color: white;
-}
-h3{
-font-size: 30px;
-font-weight: bolt;
-font-family: Impact;
-letter-spacing: 5px;
-color: white;
-}
-h4{
-font-size: 20px;
-
-font-family: Impact;
-letter-spacing: 5px;
-color: black;
-}
-p{
-font-size: 20px;
-letter-spacing: 5px;
-color: white;
-}
-.principal {
-display: flex;
-flex-direction: column;
-font-weight: 900;
-font-family: Impact;
-}
-.arriba {
-height: 100%;
-display: flex;
-padding: 50px;
-margin-left: 50px
-width: 20%;
-justify-content: flex-start;
-}
-.medio1 {
-height: 100%;
-display: flex;
-margin-left: 50px;
-width: 100%;
-justify-content: flex-start;
-flex-direction: column;
-line-height:1px;
-}
-.medio2 {
-height: 10%;
-display: flex;
-margin-left: 50px;
-width: 7%;
-flex-direction: column;
-background-color: white;
-line-height:1px;
-align-items: center; 
-}
-.medio3 {
-height: 240px;
-display: flex;
-margin-left: 50px;
-width: 15%;
-flex-direction: column;
-line-height:1px;
-align-items: center; 
-}
-.medio4 {
-height: 50px;
-display: flex;
-margin-left: 50px;
-width: 30%;
-flex-direction: row;
-line-height:1px;
-justify-content: flex-start;
-}
-.imagen{
-width: 70px;
-}
-img{
-filter: invert(1);
-height: 20px;
-width: 18px;
-}
- </style> 
-</head>
-<body>
-<video id="my-video" class="video" autoplay muted loop>
-   <source src="fondo.mp4" type="video/mp4">
-</video>
-<div class="arriba">
-               <h3>VIAJA</h3>
-    </div>
-    <br><br>
-    <br><br>
-<div class="principal">
-     <br>
-  <div class="medio1">    
-             <h1>NUNCA DEJES DE</h1>
-             <h2>EXPLORAR EL MUNDO</h2> 
-  <p>Todos los viajes tienen destinos secretos que te toca descubrir</p></div>
-  <div class="medio2"> <h4>EXPLORA</h4></div>
-  <div class="medio3"></div>
-  <div class="medio4"><div class="imagen">
-<a title="Facebook" href="https://www.facebook.com"><img src="facebook.png" alt="Facebook" /></a></div>
-  <div class="imagen">
-<a title="Twiter" href="https://twitter.com/?lang=es"><img src="twitter.png" alt="Twiter" /></a></div>
-  <div class="imagen">
-<a title="Instagram" href="https://www.instagram.com/"><img src="instagram.png" alt="Instagram" /></a></div></div>
-  </div>
-</div>
-</body>
+		<div id ="contenedor">
+			<div id ="header"><div class="nav"><h3>VIAJA</h3></div>
+			                  <div class="imagen"><a title="menu" href=""><img src="menu.png" alt="menu" /></a></div></div>
+			<div id ="main"><div class="uno"><h1>NUNCA DEJES DE</h1>
+				            <h2>EXPLORAR EL MUNDO</h2>
+							<p>Todos los viajes tienen destinos secretos que te toca descubrir</p></div>
+            <div class="boton"><a title="Escuela de codigo" href="http://187.217.4.141/~edc/moodle/" style="text-decoration:none">EXPLORA</a></div></div> 	 
+			<div id ="footer">
+				<div class="imagen"> <a title="Facebook" href="https://www.facebook.com"><img src="facebook.png" alt="Facebook" /></a></div>
+				<div class="imagen"> <a title="Twiter" href="https://twitter.com/?lang=es"><img src="twitter.png" alt="Twiter" /></a></div>
+				<div class="imagen"> <a title="Instagram" href="https://www.instagram.com/"><img src="instagram.png" alt="Instagram" /></a></div></div>
+			</div>
+		</div>
+	</body>
 </html>
-
-
-
-
-
