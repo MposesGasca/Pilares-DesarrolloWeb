@@ -1,0 +1,112 @@
+div, h1, p, a, video, h2{
+        z-index: 2;
+        position: relative;
+}
+#contenedor{
+word-wrap: break-word;
+
+}
+#header{
+        height:20%;
+        display: flex;
+        margin-left: 100px;
+        line-height:1px;
+        align-items: center; 
+}
+#main{
+        height:60%;
+        display: flex;
+        margin-left: 100px;
+        width: 50%;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-self: center;
+        line-height: 10px;
+        font-weight: bolt;
+        padding-top: 130px;
+}
+#footer{
+        height:5%;
+        display: flex;
+        margin-left: 100px;
+        width: 50%;
+        flex-direction: row;
+        line-height:1px;
+        justify-content: flex-start;
+        filter: invert(1);
+}
+.video {
+        position: fixed;
+        top: 50%; left: 50%;
+        z-index: 2;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        transform: translate(-50%, -50%);
+}
+h3{
+        font-size: 30px;
+        font-weight: bolt;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 5px;
+        color: white;
+}
+h1{
+        font-size: 100px;
+        letter-spacing: 5px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolt;
+}
+h2{
+        font-size: 75px;
+        letter-spacing: 6px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolt;
+}
+p{
+        font-size: 20px;
+        letter-spacing: 5px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        }
+.boton {
+        padding-top: 22px;
+        padding-left: 30px;
+        background-color: #ffffff; /*color botón*/
+        color: #000000; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        text-transform: uppercase; /*capitalización texto*/
+        font-family: 'Roboto', sans-serif; /*tipografía texto*/
+        border-radius: 1px; /*bordes redondos*/
+        width: 150px;
+        height: 35px;
+        font-weight: bold;
+        }
+a{
+        font-size: 20px;
+        letter-spacing: 5px;
+        color: rgb(0, 0, 0);
+        font-family: 'Roboto', sans-serif;
+        }
+.uno + .boton {
+        margin-top: 16px;
+        }
+.nav{
+        float:left;  
+        width: 90%;   
+        justify-content: flex-start;   
+        }
+.menu{
+        float:right;    
+        width: 10%;  
+        justify-content: flex-end;  
+        }
+.imagen{
+        width: 70px;
+        }
+img{
+        scale: 70%;
+        }
