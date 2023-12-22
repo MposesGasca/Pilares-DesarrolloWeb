@@ -2,18 +2,18 @@ div, h1, p, a, video, h2{
         z-index: 2;
         position: relative;
 }
-#contenedor{
+.contenedor{
 word-wrap: break-word;
 
 }
-#header{
+.header{
         height:20%;
         display: flex;
         margin-left: 100px;
         line-height:1px;
         align-items: center; 
 }
-#main{
+.main{
         height:60%;
         display: flex;
         margin-left: 100px;
@@ -25,7 +25,7 @@ word-wrap: break-word;
         font-weight: bolt;
         padding-top: 130px;
 }
-#footer{
+.footer{
         height:5%;
         display: flex;
         margin-left: 100px;
